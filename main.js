@@ -1,12 +1,29 @@
 console.log("What's Up");
+
 console.log(3>1);
+
 console.log(400 == 1000);
+
 console.log(400 !== 100);
+
+3 + 3
+
+4 > 2
+
+10 * 2 == 5 * 4
+
 
 
 var balloons = ["red", "yellow", "blue", "magenta"]
 	balloons.slice(1, 4);
 
+
+var numbers = ["220", "440", "880", "1660"]
+	numbers.slice(3, 4);
+
+
+var puppies = ["doberman", "rotweiler", "dauchsund", "poodle"]
+	puppies.pop(1, 3);
 
 
 
@@ -60,17 +77,23 @@ Toolbox = new newtoolbox("purple", "tiny", 1);
 //Another example of Ojects and function tool to change specifics//
 //This is confusing//
 var House = new Object();
-	House.rooms = "five";
-	House.floors = "two";
+	House.color = "blue";
+	House.floors = 2;
 	House.yard = "large";
 
-function newhouse(rooms, floors, large) {
-	this.rooms = number;
-	this.floors = levels;
-	this.yard = size;
+function newhouse(color, floors, yard) {
+	this.color = color;
+	this.floors = floors;
+	this.yard = yard;
 }
 
-House = new newhouse("twelve", "five", "small");
+House = new newhouse("red", 5, "small")
+
+
+
+
+
+
 
 
 
