@@ -57,5 +57,26 @@ Toolbox = new newtoolbox("purple", "tiny", 1);
 
 
 
+//Another example of Ojects and function tool to change specifics//
+//This is confusing//
+var House = new Object();
+	House.rooms = "five";
+	House.floors = "two";
+	House.yard = "large";
+
+function newhouse(rooms, floors, large) {
+	this.rooms = number;
+	this.floors = levels;
+	this.yard = size;
+}
+
+House = new newhouse("twelve", "five", "small");
+
+
+
+
+
+
+
 
 
