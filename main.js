@@ -90,6 +90,13 @@ function newhouse(color, floors, yard) {
 House = new newhouse("red", 5, "small")
 
 
+//Took "House" which was an object that had been changed with a 
+//function and assigned a new array to it.  Now the "House" is no
+//longer associated with the dimensions and is now just the 
+//statement "I sort of get this".  The old info was overwritten
+var House = new Array("I sort of get this");
+
+
 
 
 
